@@ -13,7 +13,7 @@ import os
 
 app = Flask(__name__)
 s3 = boto3.client('s3')
-BUCKET_NAME = 'your-s3-bucket-name'  # replace with your actual bucket
+BUCKET_NAME = 'tranthanhdaibucket'
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
